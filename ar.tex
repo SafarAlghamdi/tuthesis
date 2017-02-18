@@ -1,0 +1,25 @@
+
+%\begin{Arabic}
+{ \huge الملخص العربي   } \\
+\vskip1.0in
+%\section*{الملخص}
+
+سوف نستعرض في هذا الفصل بعضاَ الطرق العددية المستخدمة لحل أنظمة المعادلات الخطية. تصنف هذه الطرق عادة  إلى نوعين هما: الطرق المباشرة
+(\textenglish{direct methods})
+وهي الطرق التي يمكن أن تستخدم لإيجاد حل مضبوط
+(\textenglish{Exact solution })
+
+ للنظام الخطي و هي الطرق التي تتأثر فقط بأخطاء التدوير.  أما النوع الأخر فهور الطرق التكرارية
+  (\textenglish{Iterative methods}) وهي الطرق التي تستخدم لإيجاد حلول تقريبية للنظام الخطي.
+
+سوف نركز في هذا الفصل على محاولة حل نظام خطي يأخذ الشكل العام التالي
+\begin{align}
+\begin{cases} \label{eqn:Linear:General.system}
+&E_1 : \quad a_{1 1} x_1 + a_{1 2} x_2 + a_{1 3} x_3 + \hdots+a_{1 n} x_n  =  b_1, \\
+&E_2 : \quad a_{2 1} x_1 + a_{2 2} x_2 + a_{2 3} x_3 + \hdots+a_{2 n} x_n  =  b_2, \\
+&\:\vdots \quad \quad \quad \quad \vdots\quad \quad \quad \quad \vdots\quad \quad \quad \quad \vdots \\
+&E_n : \quad a_{n 1} x_1 + a_{n 2} x_2 + a_{n 3} x_3 + \hdots+a_{n n} x_n  =  b_n, \\
+\end{cases}
+\end{align}
+حيث $x_1, x_2, \hdots,x_n$ هي عبارة عن المجاهيل أما $a_{i j}$  و $b_i$ لكل $i, j =1,2,..,n$ هي أعداد حقيقية. يشير الرمز $E_i$ إلى المعادلة الخطية رقم $i$ في النظام الخطي.
+%\end{Arabic} 
